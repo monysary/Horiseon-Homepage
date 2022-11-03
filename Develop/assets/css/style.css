@@ -105,6 +105,11 @@ main {
     color: #ffffff;
 }
 
+.content-box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
