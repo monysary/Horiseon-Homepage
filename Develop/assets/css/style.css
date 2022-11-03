@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header containing name of marketing company and links to webpage content */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,14 +44,12 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Main webpage image */
 img {
     margin-bottom: 25px;
 }
 
+/* Float styles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -63,12 +62,32 @@ img {
     max-height: 200px;
 }
 
+/* Main area containing content of webpage */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Side banner containing benefits content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,35 +115,7 @@ main {
     max-width: 150px;
 }
 
-.content-box {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-box h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer containing webpage author */
 footer {
     padding: 30px;
     clear: both;
